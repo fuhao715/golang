@@ -21,5 +21,5 @@ func main() {
 	mytesting.MainTest()
 	fmt.Println("----------")
 	beego.Router("/", &MainController{})
-	// beego.Run()
+	beego.Run()
 }
