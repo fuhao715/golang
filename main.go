@@ -18,7 +18,8 @@ func main() {
 	fmt.Println("begin :")
 
 	mytesting.PrintBeegoVersion()
+	mytesting.MainTest()
 	fmt.Println("----------")
 	beego.Router("/", &MainController{})
-	beego.Run()
+	// beego.Run()
 }
