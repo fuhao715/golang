@@ -1,4 +1,4 @@
-package mygos
+package testing
 
 import (
 	"fmt"
