@@ -11,7 +11,7 @@ type MainController struct {
 }
 
 func (this *MainController) Get() {
-	this.Ctx.WriteString("hello world,golang中国！")
+	this.Ctx.WriteString("hello world,golang中国,学习！")
 }
 
 func main() {
