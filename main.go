@@ -11,12 +11,12 @@ type MainController struct {
 }
 
 func (this *MainController) Get() {
-	this.Ctx.WriteString("hello world,golang中国,学习！")
+	this.Ctx.WriteString("hello world,golang中国,学习ing！")
 }
 
 func main() {
 	fmt.Println("begin :")
-
+	
 	mytesting.PrintBeegoVersion()
 	mytesting.MainTest()
 	fmt.Println(beego.VERSION)
