@@ -22,5 +22,6 @@ func main() {
 	fmt.Println(beego.VERSION)
 	fmt.Println("----------end!")
 	beego.Router("/", &MainController{})
+	// go beego.BeeAdminApp.Run()
 	beego.Run()
 }
